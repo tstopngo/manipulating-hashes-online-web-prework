@@ -21,8 +21,8 @@ contacts.each do |name, data|
       if data == favorite_icecream_flavors
         favorite_icecream_flavors.pop
       end
+end
     
-
   #remember to return your newly altered contacts hash!
   contacts
 end
