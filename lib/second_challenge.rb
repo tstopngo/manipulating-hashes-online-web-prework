@@ -8,9 +8,9 @@ def second_challenge
 
   #code your solution here!
   grocery_list =[]
-  groceries.each do |type, name|
-    type.each do |name|
-      grocery_list << name.values
+  groceries.each do |type, list|
+    type.each do |list|
+      grocery_list << list.values
     end
   end
   grocery_list
