@@ -17,7 +17,6 @@ def first_challenge
 contacts.each do |name, data|
   if name == "Freddy Mercury"
     data.each do |attribute, data|
-  end
       if data == favorite_icecream_flavors
         favorite_icecream_flavors.pop
       end
