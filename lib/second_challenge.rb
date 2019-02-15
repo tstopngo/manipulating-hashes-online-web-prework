@@ -9,8 +9,7 @@ def second_challenge
   #code your solution here!
   grocery_list =[]
   groceries.each do |type, list|
-    type.each do |list|
-      grocery_list << list.values
+      grocery_list << type.values
     end
   end
   grocery_list
