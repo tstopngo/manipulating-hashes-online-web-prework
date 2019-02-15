@@ -7,11 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-  grocery_list =[]
-  groceries.each do |type, list|
-    type.values
-  end
-  grocery_list
+  grocery.values.flatten
   
 
 end
